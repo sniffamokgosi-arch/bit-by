@@ -1,1 +1,1 @@
-export default function Page(){return(<div style={{padding:40}}><h1>Terms & Conditions</h1><a href="/terms.pdf" target="_blank">Open PDF</a></div>);}
+export default function Page(){ return (<div style={{maxWidth:900,margin:'40px auto',padding:20}}><h1>Terms & Conditions</h1><p>Please review our full terms and conditions below.</p><a href="/terms.pdf" target="_blank" rel="noreferrer">Open PDF</a></div>) }

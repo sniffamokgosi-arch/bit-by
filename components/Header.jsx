@@ -1,3 +1,1 @@
-export default function Header() {
-  return <header>Header</header>;
-}
+import Link from 'next/link';export default function Header(){return(<header style={{padding:20,background:'#5D4037',color:'#fff'}}><nav style={{display:'flex',gap:20}}><Link href="/">Home</Link><Link href="/destinations/okavango">Okavango</Link><Link href="/destinations/chobe">Chobe</Link><Link href="/destinations/kalahari">Kalahari</Link></nav></header>);}

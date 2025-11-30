@@ -1,0 +1,1 @@
+export default function Page(){return <div>Destination Page Placeholder</div>}

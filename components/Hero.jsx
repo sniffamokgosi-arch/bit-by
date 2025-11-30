@@ -1,3 +1,1 @@
-export default function Hero() {
-  return <div>Hero</div>;
-}
+export default function Hero({title,subtitle}){return(<section style={{padding:'100px 20px',textAlign:'center',background:'#D4AF37',color:'#fff'}}><h1>{title}</h1><p>{subtitle}</p></section>);}
